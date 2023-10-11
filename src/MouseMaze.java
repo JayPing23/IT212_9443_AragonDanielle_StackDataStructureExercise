@@ -30,6 +30,7 @@
  *   b. Invoke the findWayOut() method.
  * 8. End the program
  **/
+
 import java.io.*;
 import java.lang.*;
 import java.util.Stack;
@@ -37,13 +38,12 @@ import java.util.Scanner;
 public class MouseMaze {
     private char[][] myMaze =
 
-                   {{'1','1','1','1','1','1'},
+            {{'1','1','1','1','1','1'},
                     {'1','1','0','0','E','1'},
                     {'1','0','0','1','1','1'},
                     {'1','0','0','0','0','1'},
                     {'1','1','0','0','M','1'},
                     {'1','0','1','1','1','1'}};
-
     private int rows= myMaze.length;
     private int cols= myMaze[0].length;
     private MazeCell currentCell= null;
